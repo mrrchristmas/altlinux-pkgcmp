@@ -1,4 +1,4 @@
-```markdown
+
 # Package Comparison Tool
 
 This tool compares packages between two branches of the ALT Linux repository: `sisyphus` and `p10`. It identifies:
@@ -19,7 +19,7 @@ This tool compares packages between two branches of the ALT Linux repository: `s
 - Saves results to a file for further analysis.
 
 ---
-```
+
 ## Installation
 ```bash
 git clone https://github.com/your-username/altlinux-pkgcmp.git
