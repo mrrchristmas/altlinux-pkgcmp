@@ -1,3 +1,4 @@
+```markdown
 # Package Comparison Tool
 
 This tool compares packages between two branches of the ALT Linux repository: `sisyphus` and `p10`. It identifies:
@@ -10,12 +11,23 @@ This tool compares packages between two branches of the ALT Linux repository: `s
 2. [Example Output](#example-output)
 ---
 
+## Features
+
+- Fetches package data from the ALT Linux API.
+- Compares packages across architectures (e.g., `x86_64`, `noarch`).
+- Outputs results in JSON format.
+- Saves results to a file for further analysis.
+
+---
+```
 ## Installation
+```bash
 git clone https://github.com/your-username/altlinux-pkgcmp.git
 cd altlinux-pkgcmp
 go build -o pkgcmp cmd/main.go
-
+```
 ## Example Output
+```bash
 [
   {
     "Arch": "x86_64",
@@ -30,7 +42,7 @@ go build -o pkgcmp cmd/main.go
     ]
   }
 ]
-
+```
 ### Prerequisites
 
 1. Install **Go** (version 1.20 or higher). Check your Go version with:
