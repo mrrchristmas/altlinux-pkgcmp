@@ -22,7 +22,7 @@ This tool compares packages between two branches of the ALT Linux repository: `s
 
 ## Installation
 ```bash
-git clone https://github.com/your-username/altlinux-pkgcmp.git
+git clone https://github.com/mrrchristmas/altlinux-pkgcmp.git
 cd altlinux-pkgcmp
 go build -o pkgcmp cmd/main.go
 ```
